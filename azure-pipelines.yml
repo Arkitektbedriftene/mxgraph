@@ -13,7 +13,7 @@ steps:
 - task: AzureFileCopy@4
   inputs:
     SourcePath: '${Build.SourcesDirectory}'
-    azureSubscription: 'Betal-etter-bruk (ce47e549-9f7b-4427-9d2d-efdbb14f5c6e)'
+    azureSubscription: 'Betal-etter-bruk(ce47e549-9f7b-4427-9d2d-efdbb14f5c6e)'
     Destination: 'AzureBlob'
     storage: 'drawhubab'
     ContainerName: '$web'
